@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<style>
+  .container {
+    border: 1px solid steelblue;
+  }
+  
+  div.torre {
+    margin: 50px auto;
+  }
+  .torre {
+    width: 10px;
+    height: 250px;
+    background-color: steelblue;
+/*  transform: rotate(3.97deg);*/
+    transform-origin: left bottom;
+    
+  }
+  
+  .torre:hover {
+    transition-duration: 60s;
+    transform: rotate(360.00deg);
+  }
+  
+  .horas {
+    width: 10px;
+    height: 150px;
+    background: pink;
+    transform-origin: left bottom;
+    position: fixed;
+    top: 10px;
+    left: 645px;
+  }
+  
+  .horas:hover {
+    transition-duration: 60s;
+    transform: rotate(30deg);
+  }
+  
+</style>
+<body>
+ 
+ <div class="container">
+   <div class="torre">
+   </div>
+   <div class="horas">
+   </div>
+ </div>
+ 
+  
+</body>
+</html>
